@@ -108,6 +108,12 @@ header {
 	height: 17px;
 	width: 17px;
 }
+.search__input{
+	font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    border: none;
+}
 .search__form{
 	display:inline-block;
 	border-left: 1px solid #f0f2f7;
