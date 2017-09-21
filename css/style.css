@@ -1,127 +1,150 @@
-body{
-	margin: 0px;
-}
 a{
 	text-decoration: none;
 }
-.container{
-	margin: 0 80px;
+body{
+	margin:0;
 }
-div{
+header {
+    border: 1px solid #f0f2f7;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.container {
+    margin: 0 auto;
+    width: 1177px;
+}
+.logo{
+    display: inline-block;
+}
+.logo__img{
+	vertical-align:middle;
+   
+}
+.menu{
 	display: inline-block;
 }
-.header-li{
-	display:inline-block;
-	margin-left: 15px;
-	font-family: 'Montserrat', sans-serif;
-	
+.menu{
+	margin-left: 70px;
 }
-.header-li-a{
+.menu__link_li{
+	display: inline-block;
+	margin-left: 0px;
+	vertical-align:middle;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+.menu__link_li a{
+	display: inline-block;
+	margin-left: 30px;
+	vertical-align:middle;
 	color:#343e5c;
 }
-.header-nav{
+.basket__cart{
+	display: inline-block;
 	margin-left: 130px;
 }
-#svg-logo{
-	width: 20px;
-	height: 20px;
+.basket__cart__img{
+	margin-right: 7px;
+	vertical-align: middle;
 }
-.header-cart{
-	margin-left: 90px;
+.basket__cart__a{
+	font-weight: 500;
+	color:#343e5c;
 	font-family: 'Montserrat', sans-serif;
 }
-.header-sign-in{
-	margin-left: 40px;
-	font-family: 'Montserrat', sans-serif;
-}
-header{
-	border-bottom: 1px solid #e3e8f0;
-	margin-top:20px;
-	padding-bottom: 15px;
-}
-.header-span{
+.basket__cart__item{
+	font-weight: 900;
 	background-color: #e3e8f0;
     border-radius: 90px;
     padding: 6px 9px 8px 9px;
     font-size: 11px;
     margin-left: 7px;
 }
-.header-cart-a{
-	margin-left:7px;
-}
-.header-in{
-	background-color: #fff;
-	color: #343e5c;
-    font-family: 'Montserrat', sans-serif;
-    border: 2px solid #e3e8f0;
-    border-radius: 21px;
-    padding: 8px 16px;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-left: 15px;
-}
-.main-li{
-	display:inline-block;
+.login{
 	display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+	margin-left: 20px;
+	font-weight: 500;
+}
+.login__button{
+	color: #343e5c;
+	border: 2px solid #e3e8f0;
+    border-radius: 21px;
+    padding: 8px 25px;
     font-size: 14px;
     text-transform: uppercase;
-    margin-right: 19px;
 }
-.main-li-a-i{
-	color:#343e5c;
+.login__button a{
+	text-decoration: none;
+    color: #343e5c;
+    font-family: 'Montserrat', sans-serif;
 }
-.main-li-a{
-	color:#cacedc;
-}
-.main-ul{
-	margin-left: 50px;
-}
-ul{
-	list-style-type: none;
-	padding:0px;
-}
-form{
+.nav{
 	display:inline-block;
 }
-.sup{
+.nav__link{
+	padding: 0;
+}
+.nav_link__li{
+	font-family: 'Montserrat', sans-serif;
+	display:inline-block;
+	margin-right: 20px;
+}
+.nav_link__li__last{
 	margin-left: 220px;
 }
+.nav_link__li a{
+	color:#b9bed1;
+	text-transform: uppercase;
+}
+.nav_link__middle a{
+	color:#343e5c;
+}
 .search{
+	display:inline-block;
+	
+}
+.search__img{
+	vertical-align:middle;
+	height: 17px;
+	width: 17px;
+}
+.search__form{
+	display:inline-block;
 	border-left: 1px solid #f0f2f7;
-    border-right: 1px solid #f0f2f7;
-    padding: 27px 0px 27px 27px;
-    padding-right: 27px;
+	padding-top: 25px;
+	padding-bottom:20px;
+	padding-right: 25px;
+	padding-left: 25px;
+	border-right: 1px solid #f0f2f7;
 }
-.main-img{
-	height: 20px;
-	width: 20px;
-	vertical-align: middle;
-}
-.content{
+.main{
 	background-image: url(../img/main/bg2.jpg);
-	color:#fff;
+	color:white;
 	height: 500px;
+	margin-top: -30px;
 }
-.content-h1{
-	margin-left: 98px;
-	margin-top:100px;
-font-size: 42px;
+.content h1{
+	font-size: 42px;
     color: #fff;
     font-family: 'Montserrat';
     font-weight: 900;
-    }
-.content-p1{
-	margin-left: 98px;
-	margin-top:35px;
+    padding-top:100px;
+    padding-left: 120px;
+}
+.content p{
 	font-family: 'Crimson Text', serif;
     color: #fff;
     font-size: 16px;
+    margin-bottom: 77px;
+    margin-top: 52px;
+    font-family: 'Crimson Text', serif;
+    margin-top: 40px;
+    margin-left: 120px;
 }
-.content-button{
-	margin-left: 98px;
-	margin-top:60px;
+.content__button{
+	margin-top: 4px;
+	margin-left: 120px;
+	display:inline-block;
 	background-color: #2754eb;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
@@ -129,5 +152,8 @@ font-size: 42px;
     padding: 10px 41px;
     font-size: 14px;
     text-transform: uppercase;
-    border:none;
+}
+.content__button a{
+	color:white;
+	 font-family: 'Montserrat', sans-serif;
 }
